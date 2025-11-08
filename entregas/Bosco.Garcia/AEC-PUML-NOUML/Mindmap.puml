@@ -1,0 +1,70 @@
+@startmindmap
+<style>
+mindmapDiagram {
+  .jsStyle * {
+    BackgroundColor lightyellow
+  }
+    .backStyle * {
+    BackgroundColor lightblue
+  }
+    .redStyle * {
+    BackgroundColor #FFBBCC
+  }
+}
+</style>
+skinparam roundCorner 20
+skinparam defaultTextAlignment center
+
+* Desarrollo de FPS
+** - <color:RoyalBlue>Diseño de juego 🎯
+*** - <color:DarkOrange>Armas
+**** - Pistolas
+**** - Rifles
+**** - Escopetas
+**** - Lanzacohetes
+*** - <color:DarkRed>Movimiento
+**** - Sprint
+**** - Agacharse
+**** - Saltar
+**** - Deslizamiento
+*** - <color:DarkGreen>Entorno
+**** - Objetos destructibles
+**** - Coberturas
+**** - Puertas y ascensores
+
+** + <color:DarkMagenta>IA enemiga 🧠<<backStyle>>
+*** + Patrullaje
+*** + Detección
+*** + Tácticas
+*** + Refuerzos
+
+-- - <color:DarkCyan>Arte y sonido 🎨<<redStyle>>
+--- - Modelado 3D
+---- - Personajes
+---- - Armas
+---- - Escenarios
+--- - Efectos visuales
+---- - Explosiones
+---- - Disparos
+---- - Sangre
+--- - Sonido
+---- - Armas
+---- - Ambiente
+--- - Voces
+
+** + <color:DarkSlateBlue>Multijugador 🌐<<jsStyle>>
+*** + Matchmaking
+*** + Modos de juego
+**** + Deathmatch
+**** + Captura la bandera
+**** + Zona de control
+*** + Servidores
+
+-- - <color:DarkSlateGray>Optimización ⚙️
+--- - Rendimiento
+---- - FPS estables
+--- - Carga de texturas
+--- - Compatibilidad
+---- - PC
+---- - Consolas
+@endmindmap
